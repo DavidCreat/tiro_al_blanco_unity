@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aff7de5643a129942bd5ea462552d1c7, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: Assembly-CSharp::TiroAlBlanco.Data.GameConfig
+  gameDuration: 60
+  maxAmmo: 6
+  reloadTime: 1.5
+  fireRate: 0.2
+  maxConcurrentTargets: 5
+  initialSpawnInterval: 2
+  minimumSpawnInterval: 0.5
+  spawnIntervalDecreaseRate: 0.02
+  shootShakeMagnitude: 0.05
+  shootShakeDuration: 0.1
+  comboResetTime: 2
+  comboTierSize: 3
+  targetTypes:
+  - {fileID: 11400000, guid: 399240e63ee9ada44a6a0b150a71d3b3, type: 2}
+  - {fileID: 11400000, guid: b3da6797ede2a944da19d71098c0bc6b, type: 2}
+  - {fileID: 11400000, guid: e4eaa14f296724b4a862b2e5ca0ecd6b, type: 2}
+  - {fileID: 11400000, guid: 87a911219d8906a4091445144a4ccdea, type: 2}
+  - {fileID: 11400000, guid: 68f9acab246271f438b805fcfe1a8e18, type: 2}
